@@ -1,0 +1,40 @@
+/* Layouting */
+
+.center {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.v-center {
+  display: grid;
+  /* justify-content: center; */
+  align-content: center;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.columns > * {
+  margin: 20px;
+}
+
+/* Style */
+
+.git img {
+  border-color: #333;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.answers li:not(:last-child) {
+  padding-bottom: 25px;
+}
+
+.answers li::marker {
+  font-size: smaller;
+  color: #666;
+}

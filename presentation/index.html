@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
     <link rel="stylesheet" href="dist/theme/black.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
@@ -19,7 +20,42 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>Slide 1</section>
+        <section>
+          <section>
+            <h1>Question 1</h1>
+            <h2>Navigating the Tree</h2>
+          </section>
+          <section>
+            <h3>Q1: <code>git show HEAD^2~1</code></h3>
+            <div class="git">
+              <img
+                src="img/q1-given.png"
+                alt="question1"
+                style="height: 500px"
+              />
+            </div>
+          </section>
+          <section>
+            <h3>Q1: <code>git show HEAD^2~1</code></h3>
+            <div class="columns">
+              <div class="git">
+                <img
+                  src="img/q1-given.png"
+                  alt="question1"
+                  style="height: 500px"
+                />
+              </div>
+              <div class="answers v-center">
+                <ol>
+                  <li>6</li>
+                  <li>5</li>
+                  <li>Error</li>
+                  <li>WTF is <code>HEAD</code>?</li>
+                </ol>
+              </div>
+            </div>
+          </section>
+        </section>
         <section>Slide 2</section>
       </div>
     </div>
