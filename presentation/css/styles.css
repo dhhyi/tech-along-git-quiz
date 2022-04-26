@@ -1,14 +1,13 @@
 /* Layouting */
 
 .center {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-content: center;
 }
 
 .v-center {
   display: grid;
-  /* justify-content: center; */
   align-content: center;
 }
 
@@ -30,11 +29,15 @@
   border-style: solid;
 }
 
-.answers li:not(:last-child) {
+li:not(:last-child) {
   padding-bottom: 25px;
 }
 
 .answers li::marker {
   font-size: smaller;
   color: #666;
+}
+
+.text-small {
+  font-size: smaller;
 }
