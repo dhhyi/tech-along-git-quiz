@@ -55,3 +55,10 @@ li:not(:last-child) {
 .text-small {
   font-size: smaller;
 }
+
+div.boom {
+  background: url(https://www.webfx.com/wp-content/themes/fx/assets/img/tools/emoji-cheat-sheet/graphics/emojis/boom.png)
+    no-repeat center center;
+  width: 64px;
+  height: 64px;
+}
