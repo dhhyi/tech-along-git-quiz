@@ -1,0 +1,24 @@
+{
+  "name": "tech-along-git-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "npx copyfiles -u 2 \"node_modules/reveal.js/{dist,plugin}/**/*\" presentation",
+    "start": "npx http-server presentation"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhhyi/tech-along-git-quiz.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhhyi/tech-along-git-quiz/issues"
+  },
+  "homepage": "https://github.com/dhhyi/tech-along-git-quiz#readme",
+  "dependencies": {
+    "copyfiles": "^2.4.1",
+    "http-server": "^14.1.0",
+    "reveal.js": "^4.3.1"
+  }
+}
