@@ -21,6 +21,10 @@
   margin: 20px;
 }
 
+.fragment:not(.visible) {
+  display: none;
+}
+
 /* Style */
 
 .git img {

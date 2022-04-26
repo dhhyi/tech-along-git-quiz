@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>reveal.js</title>
+    <title>Tech Along - Git Quiz</title>
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
@@ -27,16 +27,6 @@
           </section>
           <section>
             <h3>Q1: <code>git show HEAD^2~1</code></h3>
-            <div class="git">
-              <img
-                src="img/q1-given.png"
-                alt="question1"
-                style="height: 500px"
-              />
-            </div>
-          </section>
-          <section>
-            <h3>Q1: <code>git show HEAD^2~1</code></h3>
             <div class="columns">
               <div class="git">
                 <img
@@ -45,7 +35,7 @@
                   style="height: 500px"
                 />
               </div>
-              <div class="answers v-center">
+              <div class="answers v-center fragment">
                 <ol>
                   <li>6</li>
                   <li>5</li>
@@ -63,24 +53,6 @@
           </section>
           <section>
             <h3>Q2: What is false?</h3>
-            <div class="center">
-              <div style="width: 70%">
-                <ol>
-                  <li>Merge commits always have exactly 2 parents.</li>
-                  <li>
-                    Git does not work well with binary files because it cannot
-                    efficiently store the diffs.
-                  </li>
-                  <li>
-                    Only files and commit message influence how the git hash is
-                    computed.
-                  </li>
-                </ol>
-              </div>
-            </div>
-          </section>
-          <section>
-            <h3>Q2: What is false?</h3>
             <div class="columns">
               <div class="text-small" style="width: 60%">
                 <ol>
@@ -95,7 +67,7 @@
                   </li>
                 </ol>
               </div>
-              <div class="fragment answers v-center">
+              <div class="answers v-center fragment">
                 <ol>
                   <li>Everything is wrong</li>
                   <li>3 is wrong</li>
@@ -118,6 +90,7 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
+        progress: false,
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight],
