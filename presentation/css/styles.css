@@ -21,10 +21,6 @@
   margin: 20px;
 }
 
-.fragment:not(.visible) {
-  display: none;
-}
-
 .grid {
   display: grid !important;
   grid-template-columns: 1fr 1fr;
