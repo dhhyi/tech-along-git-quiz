@@ -25,6 +25,16 @@
   display: none;
 }
 
+.grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+li > * {
+  vertical-align: text-top;
+}
+
 /* Style */
 
 .git img {
